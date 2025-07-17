@@ -18,7 +18,14 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'serif': ['Merriweather', 'serif'],
+			},
 			colors: {
+				'medieval-brown': '#8B4513',
+				'medieval-gold': '#DAA520',
+				'medieval-purple': '#6B46C1',
+				'medieval-dark': '#2B0082',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
